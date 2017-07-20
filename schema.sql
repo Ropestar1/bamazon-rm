@@ -22,13 +22,13 @@ INSERT INTO products(product_name, department_name, price, stock_quantity)
 VALUES ("Printer", "Electronics", 100, 30);
 
 INSERT INTO products(product_name, department_name, price, stock_quantity)
-VALUES ("Standing desk", "office", 2000, 10);
+VALUES ("Standing desk", "Office", 2000, 10);
 
 INSERT INTO products(product_name, department_name, price, stock_quantity)
-VALUES ("Shredder", "office", 100, 50);
+VALUES ("Shredder", "Office", 100, 50);
 
 INSERT INTO products(product_name, department_name, price, stock_quantity)
-VALUES ("12 pack of pens - black ink", "office", 15, 100);
+VALUES ("12 pack of pens - black ink", "Office", 15, 100);
 
 INSERT INTO products(product_name, department_name, price, stock_quantity)
 VALUES ("Cigar", "Leisure", 100, 30);
