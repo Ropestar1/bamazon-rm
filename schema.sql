@@ -5,42 +5,41 @@ USE bamazon;
 
 CREATE TABLE products (
   item_id INT(11) AUTO_INCREMENT NOT NULL,
-  product_name VARCHAR(50) NOT NULL,
-  department_name VARCHAR(50),
+  product_name VARCHAR(100) NOT NULL,
+  department_name VARCHAR(100),
   price INT(11) NOT NULL,
   stock_quantity INT(11) NOT NULL,
   PRIMARY KEY (item_id)
 );
 
 INSERT INTO products(product_name, department_name, price, stock_quantity)
-VALUES ();
+VALUES ("Laptop computer", "Electronics", 1500, 20);
 
 INSERT INTO products(product_name, department_name, price, stock_quantity)
-VALUES ();
+VALUES ("Personal mirror", "Self-care", 10, 40);
 
 INSERT INTO products(product_name, department_name, price, stock_quantity)
-VALUES ();
+VALUES ("Printer", "Electronics", 100, 30);
 
 INSERT INTO products(product_name, department_name, price, stock_quantity)
-VALUES ();
+VALUES ("Standing desk", "office", 2000, 10);
 
 INSERT INTO products(product_name, department_name, price, stock_quantity)
-VALUES ();
+VALUES ("Shredder", "office", 100, 50);
 
 INSERT INTO products(product_name, department_name, price, stock_quantity)
-VALUES ();
+VALUES ("12 pack of pens - black ink", "office", 15, 100);
 
 INSERT INTO products(product_name, department_name, price, stock_quantity)
-VALUES ();
+VALUES ("Cigar", "Leisure", 100, 30);
 
 INSERT INTO products(product_name, department_name, price, stock_quantity)
-VALUES ();
+VALUES ("Black headphones - wired", "Electronics", 50, 200);
 
 INSERT INTO products(product_name, department_name, price, stock_quantity)
-VALUES ();
+VALUES ("Bubble bath soap", "Self-care", 7, 300);
 
 INSERT INTO products(product_name, department_name, price, stock_quantity)
-VALUES ();
+VALUES ("Fidget spinners", "Leisure", 10, 500);
 
--- SELECT*FROM bid_items;
--- DELETE FROM bid_items WHERE categeory = "cat";
+SELECT * FROM products;
