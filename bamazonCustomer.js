@@ -35,7 +35,6 @@ function queryProducts() {
     console.log(table.toString());
     customerPrompts();
   });
-  // connection.end();
 }
 
 function customerPrompts() {
@@ -88,8 +87,9 @@ function customerPrompts() {
               res[0].price, res[0].stock_quantity]);
 
               console.log(itemTable.toString());
-              console.log('You\'re total comes out to be $' + totalCost.toString())
-              queryProducts();
+              console.log('You\'re total comes out to be $' + totalCost.toString() +
+                '\nThank you for shopping at bamazon!')
+              connection.end();
             });
           }
         );
