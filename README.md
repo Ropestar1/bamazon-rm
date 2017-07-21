@@ -11,7 +11,7 @@
 8. If the quantity the user wants to purchase is below the stock quantity, the program deducts the User's purchase from the stock quantity and displays the updated information and the total cost of the transaction.
 9. Program should self terminate after an order has been placed, but if not, press CTRL-C to end the program.
 
-Link to download the video for the basicCustomer.js (https://github.com/Ropestar1/bamazon-rm/blob/master/walkthroughs/bamazonCustomer-rm.mov)
+Link to download the video for the bamazonCustomer.js (https://github.com/Ropestar1/bamazon-rm/blob/master/walkthroughs/bamazonCustomer-rm.mov)
 
 ### bamazon homework week 7 Instructions for Managers:
 
@@ -23,4 +23,4 @@ Link to download the video for the basicCustomer.js (https://github.com/Ropestar
 ..* Add to Inventory: Allows Manager to add to inventory of existing products for sale.
 ..* Add New Product: Adds a new product to the items available for sale.
 
-Link to download the video for the basicManager.js (https://github.com/Ropestar1/bamazon-rm/blob/master/walkthroughs/bamazonManager-rm.mov)
+Link to download the video for the bamazonManager.js (https://github.com/Ropestar1/bamazon-rm/blob/master/walkthroughs/bamazonManager-rm.mov)
