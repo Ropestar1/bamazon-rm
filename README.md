@@ -1,5 +1,5 @@
 ## bamazon-rm
-##### bamazon homework week 7 Instructions for customers:
+### bamazon homework week 7 Instructions for customers:
 
 1. Run the schema.sql file to start the database.
 2. User should open Terminal and navigate to where this repo was cloned.
@@ -11,6 +11,6 @@
 8. If the quantity the user wants to purchase is below the stock quantity, the program deducts the User's purchase from the stock quantity and displays the updated information and the total cost of the transaction.
 9. Program should self terminate after an order has been placed, but if not, press CTRL-C to end the program.
 
-Link to the video for the basicCustomer.js ()
+Link to download the video for the basicCustomer.js (https://github.com/Ropestar1/bamazon-rm/blob/master/walkthroughs/bamazonCustomer-rm.mov)
 
 
