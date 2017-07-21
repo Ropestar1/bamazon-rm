@@ -12,6 +12,7 @@ CREATE TABLE products (
   PRIMARY KEY (item_id)
 );
 
+-- Initial products
 INSERT INTO products(product_name, department_name, price, stock_quantity)
 VALUES ("Laptop computer", "Electronics", 1500, 20);
 
@@ -28,7 +29,7 @@ INSERT INTO products(product_name, department_name, price, stock_quantity)
 VALUES ("Shredder", "Office", 100, 50);
 
 INSERT INTO products(product_name, department_name, price, stock_quantity)
-VALUES ("12 pack of pens - black ink", "Office", 15, 100);
+VALUES ("12 pack of pens - black ink", "Office", 15, 4);
 
 INSERT INTO products(product_name, department_name, price, stock_quantity)
 VALUES ("Cigar", "Leisure", 100, 30);
@@ -37,7 +38,7 @@ INSERT INTO products(product_name, department_name, price, stock_quantity)
 VALUES ("Black headphones - wired", "Electronics", 50, 200);
 
 INSERT INTO products(product_name, department_name, price, stock_quantity)
-VALUES ("Bubble bath soap", "Self-care", 7, 300);
+VALUES ("Bubble bath soap", "Self-care", 7, 3);
 
 INSERT INTO products(product_name, department_name, price, stock_quantity)
 VALUES ("Fidget spinners", "Leisure", 10, 500);
