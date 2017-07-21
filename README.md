@@ -23,4 +23,4 @@ Link to download the video for the basicCustomer.js (https://github.com/Ropestar
 ..* Add to Inventory: Allows Manager to add to inventory of existing products for sale.
 ..* Add New Product: Adds a new product to the items available for sale.
 
-Link to download the video for the basicManager.js ()
+Link to download the video for the basicManager.js (https://github.com/Ropestar1/bamazon-rm/blob/master/walkthroughs/bamazonManager-rm.mov)
