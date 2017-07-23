@@ -20,7 +20,8 @@ connection.connect(function(err) {
 
 //function library
 function queryProducts() {
-  connection.query('SELECT * FROM products', function(err, res) {
+  connection.query('SELECT item_id, product_name, department_name, ' +
+    'price, stock_quantity FROM products', function(err, res) {
     var table = new Table({
       head: ['Item ID', 'Product', 'Department', 'Price', 'Stock Qty'],
       colWidths: [10, 35, 30, 10, 12]
@@ -65,20 +66,26 @@ function customerPrompts() {
           colWidths: [10, 35, 30, 10, 12]
         });
 
+        var quantityPurchased = parseInt(answer.quantityToBuy);
+        var stockReduction = res[0].stock_quantity - quantityPurchased;
+        var totalCost = answer.quantityToBuy * res[0].price;
+        var productSales = res[0].product_sales + totalCost;
+
         connection.query(
           "UPDATE products SET ? WHERE ?",
           [
             {
-              stock_quantity: res[0].stock_quantity - parseInt(answer.quantityToBuy)
+              stock_quantity: stockReduction,
+              product_sales: productSales
             },
             {
+              item_id: answer.productID,
               item_id: answer.productID
             }
           ],
           function(error) {
             if (error) throw error;
-            var totalCost = answer.quantityToBuy * res[0].price;
-
+            
             console.log("Item purchased successfully!");
             connection.query(query, { item_id: answer.productID }, function(err, res) {
               if (err) throw err;
