@@ -1,5 +1,5 @@
 ## bamazon-rm
-### bamazon homework week 7 Instructions for Customers:
+### bamazon Instructions for Customers:
 
 1. Run the schema.sql file to start the database.
 2. User should open Terminal and navigate to where this repo was cloned.
@@ -13,7 +13,7 @@
 
 Link to download the video for the bamazonCustomer.js (https://github.com/Ropestar1/bamazon-rm/blob/master/walkthroughs/bamazonCustomer-rm.mov)
 
-### bamazon homework week 7 Instructions for Managers:
+### bamazon Instructions for Managers:
 
 1. See steps 1-3 In bamazon Customer section for initial setup.
 2. In Terminal, type in "node bamazonManager.js" to begin the CLI application for managers.
